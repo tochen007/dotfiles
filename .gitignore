@@ -1,0 +1,13 @@
+# default ignore all files
+*
+
+# include all bash configs except for history
+!.bash*
+.bash_history
+
+# include all nvim config files
+!.config/nvim/**
+.config/nvim/**/.*lock.*
+
+# include git dotfiles
+!.git*
