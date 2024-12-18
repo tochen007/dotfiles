@@ -218,3 +218,8 @@
 
   # git git ...
   git = "!git"
+[user]
+	name = Tommy Chen
+	email = tommychentc@gmail.com
+[core]
+	editor = nvim
