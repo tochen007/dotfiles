@@ -119,3 +119,5 @@ set -o vi
 
 [ -f "/home/tochen/.ghcup/env" ] && . "/home/tochen/.ghcup/env" # ghcup-env
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export EDITOR="/usr/local/bin/nvim"
